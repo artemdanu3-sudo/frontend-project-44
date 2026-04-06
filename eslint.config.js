@@ -1,6 +1,6 @@
-import globals from 'globals';
-import pluginJs from '@eslint/js';
-import stylistic from '@stylistic/eslint-plugin';
+import globals from 'globals'
+import pluginJs from '@eslint/js'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default [
   {
@@ -19,8 +19,8 @@ export default [
     rules: {
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
-      '@stylistic/semi': ['error', 'always'],
+      '@stylistic/semi': ['error', 'never'],
       'no-console': 'off', // в учебных проектах консоль разрешена
     },
   },
-];
+]
