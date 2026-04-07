@@ -15,7 +15,7 @@ const getRoundData = () => {
   }
 
   const correctAnswer = String(progression[hiddenIndex])
-  progression[hiddenIndex] = '...'
+  progression[hiddenIndex] = '..'
   const question = progression.join(' ')
 
   return [question, correctAnswer]
