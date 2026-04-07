@@ -20,6 +20,7 @@ export default [
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'never'],
+      '@stylistic/eol-last': 'never',
       'no-console': 'off', // в учебных проектах консоль разрешена
     },
   },
