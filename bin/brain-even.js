@@ -28,4 +28,5 @@ const runEvenGame = () => {
 
   console.log(`Congratulations, ${name}!`)
 }
+
 runEvenGame()

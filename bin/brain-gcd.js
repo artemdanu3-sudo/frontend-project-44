@@ -21,4 +21,5 @@ const getRoundData = () => {
 
   return [question, correctAnswer]
 }
+
 runGame(description, getRoundData)
